@@ -1,13 +1,12 @@
 // trigger to play music in the background with sweetalert
 window.addEventListener('load', () => {
     Swal.fire({
-      title: 'HI. Firbaya Mutiara Ashar',
+      title: 'HI.Are You Ready',
       // text: "You won't be able to revert this!",
       icon: 'warning',
       showCancelButton: true,
       confirmButtonColor: '#3085d6',
-      cancelButtonColor: '#d33',
-      confirmButtonText: 'Are you ready?',
+      confirmButtonText: 'Yaa',
     }).then((result) => {
       if (result.isConfirmed) {
         document.querySelector('.song').play();
