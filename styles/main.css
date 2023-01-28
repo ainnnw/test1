@@ -22,8 +22,8 @@ html {
     position: relative;
     text-align: center;
     visibility: hidden;
-    width: 100vw;
-      color:width;
+    width: 100vh;
+        color: white;
   }
   
   .container > div {
