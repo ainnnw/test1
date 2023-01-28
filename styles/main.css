@@ -5,6 +5,9 @@ html {
   body {
     font-family: "Work Sans", sans-serif;
     margin: 0;
+    background-image: url('../img/shadow ay.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   .song {
