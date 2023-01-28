@@ -4,7 +4,7 @@ window.addEventListener('load', () => {
       title: 'HI.Are You Ready',
       // text: "You won't be able to revert this!",
       icon: 'warning',
-      showCancelButton: true,
+      showCancelButton: false,
       confirmButtonColor: '#3085d6',
       confirmButtonText: 'Yaa',
     }).then((result) => {
